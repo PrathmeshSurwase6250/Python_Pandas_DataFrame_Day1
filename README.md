@@ -1,71 +1,61 @@
-🐼 Python Pandas DataFrame — Day 1
+# 🐼 Python Pandas DataFrame — Day 1
 
-A practical Pandas DataFrame practice repository containing 50 exercises divided into 5 progressive levels.
+A practical **Pandas DataFrame practice repository** containing 50 exercises divided into 5 progressive levels.
 
-This repository is focused on building a strong foundation in Pandas DataFrame operations, including data loading, inspection, selection, filtering, sorting, and creating/updating columns.
+This repository is focused on building a strong foundation in **Pandas DataFrame operations**, including data loading, inspection, selection, filtering, sorting, and creating/updating columns.
 
-📌 About
+---
+
+## 📌 About
 
 This project is part of my Python and Data Analysis learning journey.
 
-I practiced Pandas using a students.csv dataset and solved 50 DataFrame problems, starting from basic DataFrame inspection and gradually moving toward data manipulation and transformation.
+I practiced Pandas using a `students.csv` dataset and solved **50 DataFrame problems**, starting from basic DataFrame inspection and gradually moving toward data manipulation and transformation.
 
 The exercises are divided into:
 
-🟢 Level 1 — Loading & Inspection
+- 🟢 Level 1 — Loading & Inspection
+- 🟢 Level 2 — Selecting Data
+- 🟢 Level 3 — Filtering
+- 🟡 Level 4 — Sorting
+- 🟡 Level 5 — Creating & Updating Columns
 
-🟢 Level 2 — Selecting Data
+---
 
-🟢 Level 3 — Filtering
+## 🛠️ Technologies Used
 
-🟡 Level 4 — Sorting
+- 🐍 Python
+- 🐼 Pandas
+- 🔢 NumPy
+- 📓 Jupyter Notebook
+- 📄 CSV Dataset
 
-🟡 Level 5 — Creating & Updating Columns
+---
 
-🛠️ Technologies Used
+# 📚 Levels & Topics
 
-🐍 Python
+## 🟢 Level 1 — Loading & Inspection
 
-🐼 Pandas
-
-🔢 NumPy
-
-📓 Jupyter Notebook
-
-📄 CSV Dataset
-
-📚 Levels & Topics
-
-🟢 Level 1 — Loading & Inspection
-
-Questions 1–10
+**Questions 1–10**
 
 In this level, I practiced loading a CSV file and understanding the basic structure of a DataFrame.
 
-Topics Covered
+### Topics Covered
 
-Importing Pandas
+- Importing Pandas
+- Reading CSV files
+- `head()`
+- `tail()`
+- `shape`
+- `columns`
+- `dtypes`
+- `describe()`
+- `isnull()`
+- `duplicated()`
 
-Reading CSV files
+### Examples
 
-head()
-
-tail()
-
-shape
-
-columns
-
-dtypes
-
-describe()
-
-isnull()
-
-duplicated()
-
-Examples
-
+```python
 import pandas as pd
 
 students = pd.read_csv("students.csv")
@@ -76,395 +66,388 @@ students.shape
 students.columns
 students.dtypes
 students.describe()
+```
 
 Checking missing values:
 
+```python
 students.isnull().sum()
+```
 
 Checking duplicate student IDs:
 
+```python
 students[students["student_id"].duplicated()]
+```
 
-🟢 Level 2 — Selecting Data
+---
 
-Questions 11–20
+## 🟢 Level 2 — Selecting Data
+
+**Questions 11–20**
 
 This level focuses on selecting specific rows and columns from a DataFrame.
 
-Topics Covered
+### Topics Covered
 
-Selecting a single column
+- Selecting a single column
+- Selecting multiple columns
+- `loc[]`
+- `iloc[]`
+- Selecting rows
+- Setting an index
+- Resetting an index
+- Filtering by gender
 
-Selecting multiple columns
-
-loc[]
-
-iloc[]
-
-Selecting rows
-
-Setting an index
-
-Resetting an index
-
-Filtering by gender
-
-Examples
+### Examples
 
 Select one column:
 
+```python
 students["name"]
+```
 
 Select multiple columns:
 
+```python
 students[["name", "course", "marks"]]
+```
 
-Using iloc:
+Using `iloc`:
 
+```python
 students.iloc[1:7]
+```
 
-Using loc:
+Using `loc`:
 
+```python
 students.loc[:, ["name", "marks"]]
+```
 
-Set student_id as index:
+Set `student_id` as index:
 
+```python
 students.set_index("student_id", inplace=True)
+```
 
 Reset index:
 
+```python
 students.reset_index(inplace=True)
+```
 
-🟢 Level 3 — Filtering
+---
 
-Questions 21–30
+## 🟢 Level 3 — Filtering
+
+**Questions 21–30**
 
 This level focuses on extracting records based on conditions.
 
-Topics Covered
+### Topics Covered
 
-Comparison operators
+- Comparison operators
+- Boolean filtering
+- Multiple conditions
+- `&` operator
+- `|` operator
+- `between()`
+- Filtering numerical data
+- Filtering categorical data
 
-Boolean filtering
-
-Multiple conditions
-
-& operator
-
-| operator
-
-between()
-
-Filtering numerical data
-
-Filtering categorical data
-
-Examples
+### Examples
 
 Students scoring above 80:
 
+```python
 students[students["marks"] > 80]
+```
 
 Students from Pune:
 
+```python
 students[students["city"] == "Pune"]
+```
 
 Students from Pune with marks above 80:
 
+```python
 students[
     (students["city"] == "Pune") &
     (students["marks"] > 80)
 ]
+```
 
 Marks between 70 and 90:
 
+```python
 students[students["marks"].between(70, 90)]
+```
 
 Students who paid more than ₹50,000:
 
+```python
 students[students["fees_paid"] > 50000]
+```
 
-🟡 Level 4 — Sorting
+---
 
-Questions 31–40
+## 🟡 Level 4 — Sorting
+
+**Questions 31–40**
 
 This level focuses on arranging DataFrame records based on different columns.
 
-Topics Covered
+### Topics Covered
 
-Ascending sorting
+- Ascending sorting
+- Descending sorting
+- Top records
+- Bottom records
+- Sorting by multiple columns
+- Finding maximum values
+- Finding minimum values
+- Finding second-highest values
+- `nlargest()`
 
-Descending sorting
-
-Top records
-
-Bottom records
-
-Sorting by multiple columns
-
-Finding maximum values
-
-Finding minimum values
-
-Finding second-highest values
-
-nlargest()
-
-Examples
+### Examples
 
 Sort marks in ascending order:
 
+```python
 students.sort_values("marks")
+```
 
 Sort marks in descending order:
 
+```python
 students.sort_values(
     "marks",
     ascending=False
 )
+```
 
 Find top 5 students:
 
+```python
 students.sort_values(
     "marks",
     ascending=False
 ).head()
+```
 
 Sort by course and marks:
 
+```python
 students.sort_values(
     ["course", "marks"],
     ascending=[True, False]
 )
+```
 
 Find the second-highest marks:
 
+```python
 students["marks"].nlargest(2).iloc[-1]
+```
 
-🟡 Level 5 — Creating & Updating Columns
+---
 
-Questions 41–50
+## 🟡 Level 5 — Creating & Updating Columns
+
+**Questions 41–50**
 
 This level focuses on creating new columns, modifying existing data, applying conditions, and deleting/renaming columns.
 
-Topics Covered
+### Topics Covered
 
-Creating new columns
+- Creating new columns
+- `.apply()`
+- Lambda functions
+- `np.where()`
+- Boolean columns
+- Updating column values
+- Adding bonus marks
+- Calculating final marks
+- Deleting columns
+- Renaming columns
 
-.apply()
+### Creating Pass/Fail
 
-Lambda functions
-
-np.where()
-
-Boolean columns
-
-Updating column values
-
-Adding bonus marks
-
-Calculating final marks
-
-Deleting columns
-
-Renaming columns
-
-Creating Pass/Fail
-
+```python
 students["result"] = students["marks"].apply(
     lambda x: "Pass" if x >= 40 else "Fail"
 )
+```
 
-Creating Attendance Status
+### Creating Attendance Status
 
+```python
 students["attendance_status"] = students["attendance"].apply(
     lambda x:
         "Excellent" if x > 90
         else "Good" if x == 75
         else "Poor"
 )
+```
 
-Creating a Boolean column
+### Creating a Boolean column
 
+```python
 students["Boolean"] = students["marks"] > 40
+```
 
-Increasing marks
+### Increasing marks
 
+```python
 students["marks"] = students["marks"] + 5
+```
 
-Adding bonus marks
+### Adding bonus marks
 
+```python
 students["Bonus_marks"] = 5
+```
 
-Calculating final marks
+### Calculating final marks
 
+```python
 students["final_marks"] = (
     students["marks"] + students["Bonus_marks"]
 )
+```
 
-Deleting a column
+### Deleting a column
 
+```python
 students.drop(
     columns=["Bonus_marks"],
     inplace=True
 )
+```
 
-📊 Practice Progress
+---
 
-Level
+# 📊 Practice Progress
 
-Questions
+| Level | Questions | Topic | Status |
+|---|---:|---|---|
+| Level 1 | 1–10 | Loading & Inspection | ✅ Completed |
+| Level 2 | 11–20 | Selecting Data | ✅ Completed |
+| Level 3 | 21–30 | Filtering | ✅ Completed |
+| Level 4 | 31–40 | Sorting | ✅ Completed |
+| Level 5 | 41–50 | Creating & Updating Columns | ✅ Completed |
 
-Topic
+**Total Practice Questions: 50**
 
-Status
+---
 
-Level 1
-
-1–10
-
-Loading & Inspection
-
-✅ Completed
-
-Level 2
-
-11–20
-
-Selecting Data
-
-✅ Completed
-
-Level 3
-
-21–30
-
-Filtering
-
-✅ Completed
-
-Level 4
-
-31–40
-
-Sorting
-
-✅ Completed
-
-Level 5
-
-41–50
-
-Creating & Updating Columns
-
-✅ Completed
-
-Total Practice Questions: 50
-
-📂 Notebooks
+# 📂 Notebooks
 
 The practice is divided into five Jupyter Notebooks:
 
+```text
 level1.ipynb
 level2.ipynb
 level3.ipynb
 level4.ipynb
 level5.ipynb
+```
 
 Each notebook represents one stage of the Pandas DataFrame practice.
 
-📄 Dataset
+---
+
+# 📄 Dataset
 
 The exercises use a student dataset containing columns such as:
 
-student_id
-
-name
-
-gender
-
-city
-
-course
-
-marks
-
-attendance
-
-fees_paid
+- `student_id`
+- `name`
+- `gender`
+- `city`
+- `course`
+- `marks`
+- `attendance`
+- `fees_paid`
 
 The dataset is used throughout the different levels to practice real DataFrame operations.
 
-🚀 How to Run
+---
 
-1. Clone the repository
+# 🚀 How to Run
 
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/PrathmeshSurwase6250/Python_Pandas_DataFrame_Day1.git
+```
 
-2. Enter the project
+### 2. Enter the project
 
+```bash
 cd Python_Pandas_DataFrame_Day1
+```
 
-3. Install Pandas
+### 3. Install Pandas
 
+```bash
 python3 -m pip install pandas
+```
 
-4. Install Jupyter Notebook
+### 4. Install Jupyter Notebook
 
+```bash
 python3 -m pip install notebook
+```
 
-5. Start Jupyter Notebook
+### 5. Start Jupyter Notebook
 
+```bash
 jupyter notebook
+```
 
 Open any of the following notebooks:
 
+```text
 level1.ipynb
 level2.ipynb
 level3.ipynb
 level4.ipynb
 level5.ipynb
+```
 
-🎯 Learning Objectives
+---
+
+# 🎯 Learning Objectives
 
 Through these exercises, I am developing practical knowledge of:
 
-Pandas DataFrame
+- Pandas DataFrame
+- Reading CSV datasets
+- DataFrame inspection
+- Row and column selection
+- `loc` and `iloc`
+- Boolean filtering
+- Multiple conditions
+- Sorting DataFrames
+- Finding top/bottom records
+- Creating calculated columns
+- Lambda functions
+- Applying functions
+- NumPy conditional operations
+- Updating DataFrame values
+- Deleting columns
+- Index management
 
-Reading CSV datasets
+---
 
-DataFrame inspection
-
-Row and column selection
-
-loc and iloc
-
-Boolean filtering
-
-Multiple conditions
-
-Sorting DataFrames
-
-Finding top/bottom records
-
-Creating calculated columns
-
-Lambda functions
-
-Applying functions
-
-NumPy conditional operations
-
-Updating DataFrame values
-
-Deleting columns
-
-Index management
-
-📈 Pandas Learning Path
+# 📈 Pandas Learning Path
 
 This repository represents the beginning of my Pandas learning journey.
 
+```text
 Python
    ↓
 NumPy
@@ -484,43 +467,44 @@ Seaborn
 SQL
    ↓
 Machine Learning
+```
 
-🔗 Repository
+---
+
+# 🔗 Repository
 
 GitHub:
 
 https://github.com/PrathmeshSurwase6250/Python_Pandas_DataFrame_Day1
 
-👨‍💻 Author
+---
 
-Prathmesh Surwase
+# 👨‍💻 Author
+
+**Prathmesh Surwase**
 
 Computer Engineering Student
 
-Interests
+### Interests
 
-Python
+- Python
+- Pandas
+- NumPy
+- Data Analysis
+- Machine Learning
+- MERN Stack
+- Java & DSA
 
-Pandas
-
-NumPy
-
-Data Analysis
-
-Machine Learning
-
-MERN Stack
-
-Java & DSA
-
-GitHub
+### GitHub
 
 https://github.com/PrathmeshSurwase6250
 
-⭐ Learning by Practicing
+---
 
-This repository focuses on hands-on practice rather than only learning theory.
+## ⭐ Learning by Practicing
+
+This repository focuses on **hands-on practice rather than only learning theory**.
 
 The objective is to solve progressively difficult Pandas problems and develop the ability to manipulate and analyze datasets using Python.
 
-⭐ If you find this repository useful, consider giving it a star!
+⭐ **If you find this repository useful, consider giving it a star!**
