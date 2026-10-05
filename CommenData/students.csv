@@ -1,0 +1,511 @@
+student_id,name,age,gender,city,course,marks,attendance,fees_paid
+1001,Student_001,19,F,,Python,81.0,81.4,45000
+1002,Student_002,20,F,Bangalore,Machine Learning,49.0,100.0,65000
+1003,Student_003,24,F,Nashik,Java,72.0,85.0,45000
+1004,Student_004,25,F,Bangalore,Java,62.0,77.2,45000
+1005,Student_005,21,F,Bangalore,Machine Learning,47.0,74.1,65000
+1006,Student_006,23,M,Mumbai,MERN,87.0,90.3,50000
+1007,Student_007,18,F,Nashik,Java,67.0,74.9,50000
+1008,Student_008,18,M,Nashik,MERN,76.0,84.8,55000
+1009,Student_009,20,M,Nashik,Java,75.0,99.8,45000
+1010,Student_010,19,M,Bangalore,Java,67.0,80.9,45000
+1011,Student_011,21,F,Delhi,Data Science,100.0,97.1,65000
+1012,Student_012,24,F,Nashik,Java,71.0,71.9,45000
+1013,Student_013,19,F,Hyderabad,Python,49.0,78.7,45000
+1014,Student_014,18,M,Bangalore,Machine Learning,66.0,69.9,65000
+1015,Student_015,19,M,Mumbai,Machine Learning,79.0,84.7,70000
+1016,Student_016,18,M,Delhi,MERN,80.0,91.8,50000
+1017,Student_017,19,M,Hyderabad,Java,56.0,84.8,50000
+1018,Student_018,20,M,Hyderabad,Python,86.0,96.3,50000
+1019,Student_019,22,M,Mumbai,MERN,46.0,76.5,50000
+1020,Student_020,20,F,Delhi,Data Science,89.0,86.3,60000
+1021,Student_021,20,F,Bangalore,MERN,52.0,78.7,50000
+1022,Student_022,22,F,Pune,MERN,69.0,87.6,50000
+1023,Student_023,22,F,Delhi,Java,88.0,89.0,45000
+1024,Student_024,25,M,,Data Science,74.0,89.8,60000
+1025,Student_025,25,M,Hyderabad,MERN,84.0,73.3,50000
+1026,Student_026,21,F,Bangalore,Python,81.0,75.1,50000
+1027,Student_027,24,M,Delhi,Python,91.0,77.0,45000
+1028,Student_028,24,F,Pune,Machine Learning,88.0,81.6,65000
+1029,Student_029,21,F,Pune,Data Science,65.0,84.9,60000
+1030,Student_030,20,F,Nashik,Data Science,81.0,91.1,60000
+1031,Student_031,20,M,Nashik,Machine Learning,49.0,75.5,65000
+1032,Student_032,18,F,Mumbai,MERN,71.0,68.0,50000
+1033,Student_033,18,F,Delhi,Data Science,84.0,,60000
+1034,Student_034,24,F,Delhi,Python,74.0,72.7,45000
+1035,Student_035,21,M,Hyderabad,Python,79.0,92.4,45000
+1036,Student_036,23,M,Hyderabad,Java,69.0,84.3,45000
+1037,Student_037,25,F,Hyderabad,Data Science,89.0,86.5,60000
+1038,Student_038,23,M,Nashik,MERN,71.0,84.0,55000
+1039,Student_039,21,M,Delhi,Machine Learning,65.0,80.2,65000
+1040,Student_040,18,M,Delhi,Machine Learning,85.0,88.6,65000
+1041,Student_041,24,M,Pune,MERN,51.0,79.6,50000
+1042,Student_042,24,M,Nashik,Java,80.0,95.7,45000
+1043,Student_043,18,M,Bangalore,Machine Learning,56.0,89.7,65000
+1044,Student_044,23,M,,Data Science,91.0,90.0,60000
+1045,Student_045,19,M,Bangalore,Java,68.0,78.9,45000
+1046,Student_046,19,M,Pune,Data Science,74.0,81.6,60000
+1047,Student_047,18,M,Mumbai,Python,78.0,72.1,45000
+1048,Student_048,19,F,Delhi,Java,43.0,80.5,45000
+1049,Student_049,22,F,Pune,Machine Learning,62.0,73.6,65000
+1050,Student_050,21,M,Delhi,Java,88.0,97.1,50000
+1051,Student_051,21,F,Hyderabad,Java,85.0,84.5,45000
+1052,Student_052,18,F,Mumbai,Java,76.0,85.7,45000
+1053,Student_053,20,M,Mumbai,Java,52.0,81.7,45000
+1054,Student_054,25,M,Pune,Data Science,81.0,86.0,60000
+1055,Student_055,23,M,Mumbai,Python,83.0,100.0,45000
+1056,Student_056,18,F,Bangalore,MERN,73.0,81.0,50000
+1057,Student_057,19,F,Mumbai,Java,90.0,77.5,45000
+1058,Student_058,23,M,Delhi,Machine Learning,62.0,89.3,65000
+1059,Student_059,20,M,Delhi,Java,64.0,58.7,45000
+1060,Student_060,19,M,Delhi,Machine Learning,35.0,84.6,65000
+1061,Student_061,24,F,Delhi,,86.0,80.3,60000
+1062,Student_062,25,F,Bangalore,Machine Learning,77.0,74.1,65000
+1063,Student_063,22,F,Nashik,MERN,47.0,89.1,50000
+1064,Student_064,19,F,Hyderabad,Python,46.0,84.5,50000
+1065,Student_065,22,M,Pune,Machine Learning,59.0,66.0,65000
+1066,Student_066,23,M,Delhi,Machine Learning,84.0,77.5,65000
+1067,Student_067,22,M,Mumbai,Python,67.0,55.1,45000
+1068,Student_068,23,M,Delhi,MERN,60.0,86.9,55000
+1069,Student_069,23,F,Mumbai,Java,57.0,86.8,45000
+1070,Student_070,23,F,Hyderabad,Machine Learning,56.0,76.1,65000
+1071,Student_071,23,M,Hyderabad,Python,43.0,89.4,45000
+1072,Student_072,23,M,Hyderabad,Data Science,54.0,71.2,60000
+1073,Student_073,19,F,Mumbai,Python,56.0,74.3,45000
+1074,Student_074,23,M,Delhi,Data Science,82.0,88.2,60000
+1075,Student_075,19,F,Hyderabad,MERN,70.0,77.1,55000
+1076,Student_076,23,M,Bangalore,Java,60.0,83.4,45000
+1077,Student_077,22,M,Mumbai,Python,100.0,78.4,45000
+1078,Student_078,24,M,Mumbai,Machine Learning,62.0,79.9,70000
+1079,Student_079,23,M,Delhi,MERN,90.0,80.3,50000
+1080,Student_080,20,M,Mumbai,,96.0,76.9,45000
+1081,Student_081,23,M,Mumbai,Machine Learning,48.0,87.0,65000
+1082,Student_082,23,M,Hyderabad,Python,73.0,77.7,45000
+1083,Student_083,22,F,Delhi,Data Science,64.0,84.2,60000
+1084,Student_084,25,F,Hyderabad,Python,63.0,76.7,50000
+1085,Student_085,21,F,Hyderabad,Python,80.0,68.7,45000
+1086,Student_086,22,F,Delhi,Python,63.0,93.1,45000
+1087,Student_087,20,F,Pune,MERN,65.0,89.0,50000
+1088,Student_088,21,M,Hyderabad,Python,69.0,100.0,50000
+1089,Student_089,18,M,Bangalore,Machine Learning,66.0,73.6,70000
+1090,Student_090,18,F,Bangalore,Data Science,54.0,81.9,65000
+1091,Student_091,25,M,Mumbai,Data Science,84.0,82.7,60000
+1092,Student_092,20,F,Bangalore,Python,88.0,93.9,45000
+1093,Student_093,22,F,Mumbai,MERN,77.0,78.9,50000
+1094,Student_094,19,M,Pune,MERN,66.0,72.3,50000
+1095,Student_095,20,M,Delhi,Machine Learning,61.0,96.1,65000
+1096,Student_096,24,M,Delhi,Python,61.0,80.8,45000
+1097,Student_097,21,F,Delhi,Data Science,100.0,92.8,60000
+1098,Student_098,21,M,Bangalore,MERN,86.0,91.6,50000
+1099,Student_099,23,F,Pune,Python,59.0,83.7,45000
+1100,Student_100,18,F,Bangalore,MERN,74.0,82.3,50000
+1101,Student_101,25,F,Bangalore,MERN,67.0,80.1,50000
+1102,Student_102,21,M,Pune,Data Science,81.0,83.8,60000
+1103,Student_103,20,M,Pune,Java,80.0,92.6,45000
+1104,Student_104,21,F,Pune,Machine Learning,88.0,76.0,65000
+1105,Student_105,25,M,Pune,Machine Learning,,85.1,65000
+1106,Student_106,25,M,Delhi,Data Science,74.0,72.8,60000
+1107,Student_107,25,M,Nashik,MERN,46.0,74.1,50000
+1108,Student_108,20,F,Nashik,Python,53.0,83.7,50000
+1109,Student_109,19,F,Pune,MERN,85.0,64.4,50000
+1110,Student_110,23,M,Nashik,Data Science,58.0,,60000
+1111,Student_111,18,F,Nashik,Machine Learning,59.0,72.1,65000
+1112,Student_112,21,M,Pune,MERN,72.0,83.6,50000
+1113,Student_113,20,M,Nashik,Machine Learning,82.0,95.7,65000
+1114,Student_114,22,M,Bangalore,Python,56.0,75.4,45000
+1115,Student_115,18,M,Mumbai,Machine Learning,25.0,61.0,70000
+1116,Student_116,19,F,Mumbai,Machine Learning,59.0,79.6,65000
+1117,Student_117,20,F,Pune,Java,90.0,75.3,50000
+1118,Student_118,24,F,Delhi,Java,77.0,61.2,45000
+1119,Student_119,24,M,Pune,Java,92.0,86.8,45000
+1120,Student_120,23,M,Delhi,Machine Learning,55.0,86.1,70000
+1121,Student_121,23,M,Mumbai,Data Science,,95.4,60000
+1122,Student_122,19,F,Pune,Machine Learning,79.0,72.8,65000
+1123,Student_123,19,M,Hyderabad,Data Science,76.0,68.0,60000
+1124,Student_124,23,F,Bangalore,Data Science,77.0,79.9,60000
+1125,Student_125,21,F,Nashik,Java,86.0,83.1,45000
+1126,Student_126,21,F,Delhi,MERN,78.0,93.2,50000
+1127,Student_127,20,F,Hyderabad,Python,78.0,98.1,45000
+1128,Student_128,22,F,Nashik,Java,83.0,96.1,45000
+1129,Student_129,20,F,Nashik,Java,80.0,86.8,45000
+1130,Student_130,22,M,Pune,MERN,85.0,92.0,50000
+1131,Student_131,19,M,Nashik,Python,87.0,77.6,45000
+1132,Student_132,18,F,Bangalore,Machine Learning,95.0,85.7,65000
+1133,Student_133,20,F,Hyderabad,Machine Learning,62.0,72.1,65000
+1134,Student_134,20,M,Nashik,Java,79.0,84.6,45000
+1135,Student_135,22,F,Pune,Python,66.0,84.9,50000
+1136,Student_136,25,F,Bangalore,Java,59.0,100.0,45000
+1137,Student_137,19,M,Mumbai,Data Science,62.0,81.7,60000
+1138,Student_138,19,F,Hyderabad,Java,79.0,84.9,45000
+1139,Student_139,24,F,Nashik,Java,78.0,86.4,45000
+1140,Student_140,25,F,Pune,Machine Learning,78.0,79.5,65000
+1141,Student_141,22,M,Mumbai,Machine Learning,69.0,76.0,65000
+1142,Student_142,19,M,Mumbai,Machine Learning,72.0,97.0,65000
+1143,Student_143,25,M,Delhi,Data Science,84.0,74.2,60000
+1144,Student_144,23,F,Bangalore,Machine Learning,50.0,70.7,70000
+1145,Student_145,25,F,Nashik,Python,72.0,90.8,50000
+1146,Student_146,21,M,Pune,MERN,73.0,95.6,55000
+1147,Student_147,24,F,Delhi,Python,83.0,79.5,45000
+1148,Student_148,23,F,Bangalore,Python,52.0,79.6,45000
+1149,Student_149,18,F,Delhi,Machine Learning,94.0,86.8,65000
+1150,Student_150,20,F,Hyderabad,MERN,75.0,76.9,50000
+1151,Student_151,24,F,Bangalore,MERN,76.0,76.2,50000
+1152,Student_152,18,M,Bangalore,MERN,66.0,92.8,50000
+1153,Student_153,20,F,Nashik,Data Science,80.0,90.1,60000
+1154,Student_154,21,M,Bangalore,Machine Learning,73.0,97.1,65000
+1155,Student_155,25,F,Delhi,MERN,90.0,71.5,50000
+1156,Student_156,19,M,Bangalore,Data Science,50.0,79.0,60000
+1157,Student_157,23,F,Nashik,Java,75.0,86.8,45000
+1158,Student_158,22,M,Nashik,Java,78.0,74.7,50000
+1159,Student_159,23,F,Hyderabad,Data Science,69.0,90.4,60000
+1160,Student_160,21,M,Delhi,Data Science,66.0,96.2,60000
+1161,Student_161,18,F,Mumbai,Machine Learning,67.0,78.2,65000
+1162,Student_162,22,M,Mumbai,Machine Learning,75.0,84.4,65000
+1163,Student_163,19,F,Bangalore,Java,45.0,98.6,45000
+1164,Student_164,21,M,Hyderabad,MERN,86.0,100.0,50000
+1165,Student_165,22,M,Pune,Java,65.0,91.5,45000
+1166,Student_166,21,F,Bangalore,MERN,74.0,89.9,50000
+1167,Student_167,25,F,Hyderabad,MERN,78.0,75.5,50000
+1168,Student_168,21,M,Delhi,Machine Learning,64.0,87.6,65000
+1169,Student_169,19,F,Delhi,Python,70.0,89.6,45000
+1170,Student_170,24,M,Delhi,Python,41.0,81.9,45000
+1171,Student_171,20,M,Delhi,Data Science,83.0,78.1,60000
+1172,Student_172,22,M,Delhi,,88.0,71.2,70000
+1173,Student_173,25,F,Hyderabad,MERN,46.0,66.6,50000
+1174,Student_174,19,M,Hyderabad,Python,66.0,64.5,45000
+1175,Student_175,21,M,Nashik,MERN,54.0,89.8,50000
+1176,Student_176,25,F,Mumbai,Python,69.0,85.5,45000
+1177,Student_177,19,F,Delhi,Python,82.0,79.2,45000
+1178,Student_178,24,F,Pune,Python,87.0,80.7,45000
+1179,Student_179,25,F,Hyderabad,Machine Learning,89.0,86.1,70000
+1180,Student_180,25,M,Pune,Java,92.0,82.4,45000
+1181,Student_181,20,M,Pune,MERN,69.0,70.6,50000
+1182,Student_182,23,M,Pune,Machine Learning,55.0,93.1,65000
+1183,Student_183,22,M,Nashik,Machine Learning,70.0,87.0,65000
+1184,Student_184,20,F,Hyderabad,Machine Learning,81.0,86.7,65000
+1185,Student_185,18,M,Pune,Machine Learning,54.0,92.4,65000
+1186,Student_186,22,M,Delhi,Machine Learning,97.0,75.9,65000
+1187,Student_187,20,F,Bangalore,Data Science,85.0,96.1,60000
+1188,Student_188,21,M,Pune,MERN,69.0,82.6,50000
+1189,Student_189,22,M,Nashik,Machine Learning,61.0,92.9,70000
+1190,Student_190,22,M,Hyderabad,MERN,62.0,91.3,50000
+1191,Student_191,19,M,Nashik,Data Science,73.0,73.6,65000
+1192,Student_192,21,M,Pune,Data Science,69.0,89.0,60000
+1193,Student_193,18,M,Hyderabad,MERN,86.0,87.3,55000
+1194,Student_194,23,F,Bangalore,Python,67.0,84.3,45000
+1195,Student_195,25,F,Pune,Java,80.0,83.1,50000
+1196,Student_196,24,M,Nashik,Python,72.0,83.1,50000
+1197,Student_197,20,M,Mumbai,Python,76.0,92.1,45000
+1198,Student_198,19,F,Delhi,Python,69.0,89.8,50000
+1199,Student_199,20,M,Nashik,Machine Learning,83.0,84.3,65000
+1200,Student_200,18,M,Hyderabad,Data Science,83.0,69.1,60000
+1201,Student_201,25,M,Pune,Python,79.0,88.9,45000
+1202,Student_202,18,F,Delhi,Data Science,81.0,91.2,60000
+1203,Student_203,22,M,Pune,MERN,58.0,100.0,50000
+1204,Student_204,24,F,Hyderabad,Java,77.0,94.8,45000
+1205,Student_205,18,M,Pune,MERN,,65.0,50000
+1206,Student_206,20,F,Mumbai,MERN,79.0,,50000
+1207,Student_207,21,F,Delhi,Machine Learning,57.0,100.0,70000
+1208,Student_208,21,M,Delhi,Java,71.0,90.2,45000
+1209,Student_209,22,F,Hyderabad,MERN,78.0,87.3,50000
+1210,Student_210,23,M,Mumbai,MERN,61.0,93.0,50000
+1211,Student_211,20,F,Nashik,Java,52.0,77.8,45000
+1212,Student_212,20,M,Pune,Java,67.0,88.8,45000
+1213,Student_213,18,M,Bangalore,MERN,61.0,81.5,50000
+1214,Student_214,24,F,Pune,Java,72.0,83.8,45000
+1215,Student_215,20,M,Pune,MERN,48.0,92.3,55000
+1216,Student_216,19,M,Nashik,MERN,80.0,74.7,50000
+1217,Student_217,23,F,Pune,Machine Learning,62.0,96.9,65000
+1218,Student_218,18,M,Mumbai,Python,87.0,79.8,45000
+1219,Student_219,19,M,Mumbai,MERN,68.0,86.6,50000
+1220,Student_220,22,F,Delhi,Data Science,72.0,70.0,60000
+1221,Student_221,21,F,Hyderabad,Python,69.0,91.2,45000
+1222,Student_222,22,M,Bangalore,Python,62.0,98.5,45000
+1223,Student_223,21,M,Pune,Python,100.0,78.9,45000
+1224,Student_224,22,F,Pune,Machine Learning,65.0,,70000
+1225,Student_225,20,F,Nashik,MERN,87.0,86.8,55000
+1226,Student_226,19,M,Hyderabad,Machine Learning,56.0,98.5,65000
+1227,Student_227,21,F,Mumbai,MERN,78.0,69.5,50000
+1228,Student_228,18,M,Bangalore,Machine Learning,79.0,72.9,65000
+1229,Student_229,19,M,Delhi,Machine Learning,72.0,79.5,65000
+1230,Student_230,18,M,Mumbai,Data Science,63.0,75.8,60000
+1231,Student_231,19,M,Hyderabad,Machine Learning,68.0,75.8,65000
+1232,Student_232,19,M,Delhi,Java,66.0,63.1,45000
+1233,Student_233,22,F,Nashik,Data Science,100.0,89.9,60000
+1234,Student_234,21,F,Nashik,Machine Learning,72.0,87.4,65000
+1235,Student_235,21,F,Pune,Python,80.0,67.0,50000
+1236,Student_236,24,F,Hyderabad,Java,99.0,98.6,50000
+1237,Student_237,19,M,Bangalore,Java,59.0,100.0,45000
+1238,Student_238,20,M,Delhi,Java,73.0,76.5,45000
+1239,Student_239,20,M,Mumbai,Data Science,68.0,95.7,65000
+1240,Student_240,18,M,Hyderabad,Machine Learning,71.0,78.3,65000
+1241,Student_241,18,F,Hyderabad,Machine Learning,69.0,85.8,65000
+1242,Student_242,22,M,Nashik,Python,61.0,75.6,45000
+1243,Student_243,19,M,Pune,Python,75.0,100.0,45000
+1244,Student_244,18,F,Pune,Java,56.0,81.0,45000
+1245,Student_245,18,F,Delhi,Python,87.0,85.3,50000
+1246,Student_246,23,F,Nashik,Data Science,81.0,77.1,65000
+1247,Student_247,19,F,Hyderabad,Machine Learning,65.0,100.0,65000
+1248,Student_248,25,M,Bangalore,Java,,100.0,45000
+1249,Student_249,22,M,Nashik,Python,76.0,100.0,50000
+1250,Student_250,18,F,Delhi,Data Science,60.0,93.6,60000
+1251,Student_251,22,M,Delhi,Data Science,99.0,77.8,65000
+1252,Student_252,21,M,Nashik,Python,77.0,92.3,45000
+1253,Student_253,22,M,Delhi,Machine Learning,78.0,83.9,65000
+1254,Student_254,25,F,Nashik,Python,82.0,97.1,45000
+1255,Student_255,20,M,Mumbai,Java,63.0,95.2,45000
+1256,Student_256,25,F,Nashik,Python,88.0,77.5,45000
+1257,Student_257,20,M,Nashik,Data Science,74.0,93.5,60000
+1258,Student_258,22,M,Delhi,Python,86.0,90.8,45000
+1259,Student_259,20,M,Delhi,Machine Learning,69.0,56.3,65000
+1260,Student_260,21,F,Pune,MERN,92.0,92.0,50000
+1261,Student_261,19,M,Pune,Python,78.0,79.7,50000
+1262,Student_262,20,F,Mumbai,Machine Learning,100.0,75.1,70000
+1263,Student_263,20,F,,Machine Learning,66.0,75.6,65000
+1264,Student_264,22,F,Nashik,Data Science,75.0,82.6,65000
+1265,Student_265,21,M,Delhi,Machine Learning,57.0,88.8,65000
+1266,Student_266,24,M,Pune,Machine Learning,64.0,70.3,65000
+1267,Student_267,24,M,Pune,Machine Learning,81.0,85.9,70000
+1268,Student_268,24,M,Mumbai,Machine Learning,89.0,89.8,65000
+1269,Student_269,24,F,Hyderabad,Java,100.0,100.0,45000
+1270,Student_270,19,F,Mumbai,Java,71.0,73.2,50000
+1271,Student_271,25,F,Nashik,Data Science,58.0,80.5,60000
+1272,Student_272,22,M,Delhi,,83.0,86.6,50000
+1273,Student_273,22,F,Mumbai,Machine Learning,55.0,95.5,70000
+1274,Student_274,23,M,Pune,Python,80.0,81.0,45000
+1275,Student_275,21,F,Delhi,Python,64.0,96.0,50000
+1276,Student_276,24,M,Delhi,Data Science,75.0,64.6,60000
+1277,Student_277,19,M,Pune,Machine Learning,88.0,71.5,65000
+1278,Student_278,21,F,Mumbai,Machine Learning,70.0,87.5,65000
+1279,Student_279,24,F,Pune,MERN,86.0,69.9,55000
+1280,Student_280,19,F,Hyderabad,Python,85.0,72.3,45000
+1281,Student_281,21,F,Delhi,Python,44.0,78.7,45000
+1282,Student_282,22,M,Bangalore,Java,58.0,91.7,45000
+1283,Student_283,22,F,Bangalore,MERN,49.0,65.0,50000
+1284,Student_284,25,F,Nashik,Java,100.0,85.7,45000
+1285,Student_285,18,F,Pune,Java,70.0,94.3,45000
+1286,Student_286,25,M,Pune,Java,99.0,82.1,45000
+1287,Student_287,20,M,Nashik,Data Science,48.0,80.3,60000
+1288,Student_288,25,F,Nashik,Data Science,63.0,88.0,65000
+1289,Student_289,24,M,Nashik,Java,84.0,82.1,45000
+1290,Student_290,23,F,Delhi,MERN,75.0,97.9,50000
+1291,Student_291,21,M,Hyderabad,Python,80.0,72.9,50000
+1292,Student_292,23,M,Pune,MERN,53.0,83.5,50000
+1293,Student_293,18,M,Delhi,Machine Learning,93.0,86.1,70000
+1294,Student_294,20,M,Nashik,Data Science,84.0,80.2,60000
+1295,Student_295,21,F,Pune,Python,78.0,55.3,50000
+1296,Student_296,19,F,Delhi,Python,62.0,82.4,45000
+1297,Student_297,24,F,Hyderabad,Machine Learning,77.0,93.0,65000
+1298,Student_298,20,M,Delhi,Machine Learning,68.0,91.8,65000
+1299,Student_299,22,F,Hyderabad,Java,47.0,87.5,50000
+1300,Student_300,18,F,Nashik,Data Science,71.0,73.0,60000
+1301,Student_301,20,F,Hyderabad,Data Science,70.0,88.0,60000
+1302,Student_302,24,M,Pune,MERN,88.0,78.3,50000
+1303,Student_303,25,M,Nashik,Java,38.0,87.5,45000
+1304,Student_304,20,M,Pune,Java,76.0,85.2,45000
+1305,Student_305,25,F,Bangalore,Java,55.0,74.2,45000
+1306,Student_306,24,F,Mumbai,Java,77.0,75.1,50000
+1307,Student_307,22,F,Hyderabad,Data Science,78.0,87.6,60000
+1308,Student_308,21,M,,Data Science,71.0,81.8,60000
+1309,Student_309,19,M,Mumbai,Java,84.0,75.6,45000
+1310,Student_310,22,F,Hyderabad,MERN,53.0,74.8,50000
+1311,Student_311,25,M,Nashik,Python,89.0,81.0,45000
+1312,Student_312,25,M,Bangalore,Python,61.0,,45000
+1313,Student_313,19,M,Pune,MERN,49.0,78.7,50000
+1314,Student_314,21,M,Delhi,Java,68.0,83.9,45000
+1315,Student_315,20,F,Pune,Data Science,41.0,85.0,60000
+1316,Student_316,19,M,Delhi,Python,76.0,72.7,50000
+1317,Student_317,18,M,Pune,Machine Learning,68.0,66.4,70000
+1318,Student_318,18,M,Hyderabad,Machine Learning,91.0,73.7,65000
+1319,Student_319,24,M,Bangalore,MERN,82.0,86.5,55000
+1320,Student_320,22,F,Delhi,Java,51.0,84.9,45000
+1321,Student_321,25,F,Nashik,Python,59.0,91.0,45000
+1322,Student_322,21,M,Pune,Java,80.0,85.0,45000
+1323,Student_323,24,M,Pune,Python,85.0,82.9,45000
+1324,Student_324,22,M,Delhi,MERN,90.0,78.0,50000
+1325,Student_325,22,M,Nashik,MERN,90.0,92.8,50000
+1326,Student_326,24,M,Nashik,Machine Learning,71.0,74.8,65000
+1327,Student_327,23,M,Hyderabad,Java,77.0,72.9,45000
+1328,Student_328,22,F,Hyderabad,Machine Learning,91.0,89.7,65000
+1329,Student_329,23,M,Hyderabad,Java,67.0,70.7,45000
+1330,Student_330,18,F,Hyderabad,Machine Learning,78.0,100.0,65000
+1331,Student_331,18,F,Hyderabad,Data Science,67.0,84.8,60000
+1332,Student_332,22,M,Hyderabad,Data Science,64.0,87.5,65000
+1333,Student_333,18,F,Bangalore,Data Science,73.0,75.9,65000
+1334,Student_334,21,F,Nashik,Data Science,62.0,80.8,60000
+1335,Student_335,23,F,Hyderabad,Python,70.0,79.7,50000
+1336,Student_336,23,F,Nashik,Data Science,56.0,78.6,60000
+1337,Student_337,22,F,Nashik,MERN,69.0,90.3,50000
+1338,Student_338,18,F,Mumbai,MERN,79.0,79.5,50000
+1339,Student_339,19,M,Bangalore,Python,63.0,94.2,45000
+1340,Student_340,25,F,Hyderabad,Data Science,72.0,100.0,65000
+1341,Student_341,24,F,Pune,Data Science,74.0,81.0,60000
+1342,Student_342,24,F,Delhi,Data Science,79.0,85.5,60000
+1343,Student_343,23,M,Pune,Machine Learning,70.0,87.8,65000
+1344,Student_344,22,F,Bangalore,Java,88.0,100.0,45000
+1345,Student_345,22,M,Delhi,Machine Learning,40.0,83.2,70000
+1346,Student_346,21,F,Bangalore,Java,100.0,75.7,45000
+1347,Student_347,20,M,Nashik,Data Science,59.0,71.3,60000
+1348,Student_348,25,M,Delhi,Data Science,78.0,83.4,60000
+1349,Student_349,20,F,Nashik,Machine Learning,58.0,79.5,65000
+1350,Student_350,23,F,Pune,Machine Learning,,100.0,65000
+1351,Student_351,24,M,Pune,Java,76.0,100.0,45000
+1352,Student_352,21,F,Delhi,MERN,62.0,73.7,50000
+1353,Student_353,21,M,Delhi,Java,88.0,76.9,45000
+1354,Student_354,21,M,Hyderabad,Machine Learning,70.0,84.7,70000
+1355,Student_355,23,M,Bangalore,Machine Learning,80.0,98.0,70000
+1356,Student_356,20,M,Hyderabad,Python,58.0,84.6,45000
+1357,Student_357,24,M,Bangalore,Machine Learning,72.0,77.5,65000
+1358,Student_358,21,F,Hyderabad,Python,100.0,83.4,45000
+1359,Student_359,24,M,Nashik,MERN,86.0,77.7,50000
+1360,Student_360,18,M,Delhi,Java,77.0,90.0,45000
+1361,Student_361,22,F,Pune,Java,65.0,76.9,45000
+1362,Student_362,22,M,Bangalore,Python,73.0,78.9,45000
+1363,Student_363,24,F,Bangalore,Java,75.0,95.6,45000
+1364,Student_364,19,F,Pune,Machine Learning,79.0,76.3,65000
+1365,Student_365,19,F,Hyderabad,Data Science,56.0,69.5,60000
+1366,Student_366,23,M,Bangalore,Python,82.0,84.9,45000
+1367,Student_367,23,M,Nashik,Java,56.0,80.4,45000
+1368,Student_368,22,M,Delhi,Python,96.0,89.1,45000
+1369,Student_369,18,F,Pune,Python,60.0,87.2,45000
+1370,Student_370,25,M,Delhi,Data Science,76.0,83.7,60000
+1371,Student_371,20,F,Bangalore,Machine Learning,87.0,83.4,65000
+1372,Student_372,20,M,Bangalore,Python,68.0,76.6,45000
+1373,Student_373,23,F,Pune,Java,77.0,,45000
+1374,Student_374,18,M,Nashik,MERN,94.0,92.8,55000
+1375,Student_375,23,M,Mumbai,Python,80.0,74.3,45000
+1376,Student_376,25,M,Pune,Python,77.0,83.9,45000
+1377,Student_377,20,F,Mumbai,Data Science,47.0,94.4,60000
+1378,Student_378,24,F,Hyderabad,Machine Learning,58.0,89.1,65000
+1379,Student_379,23,M,Mumbai,MERN,88.0,97.1,50000
+1380,Student_380,21,M,Nashik,Java,81.0,78.3,45000
+1381,Student_381,24,F,Hyderabad,MERN,83.0,65.7,50000
+1382,Student_382,25,F,Mumbai,Java,82.0,86.0,50000
+1383,Student_383,25,F,Hyderabad,Machine Learning,,87.6,65000
+1384,Student_384,23,M,Mumbai,Java,68.0,97.7,45000
+1385,Student_385,22,F,Nashik,Data Science,74.0,95.9,65000
+1386,Student_386,23,M,Mumbai,Data Science,57.0,89.4,60000
+1387,Student_387,22,F,Mumbai,Data Science,53.0,91.7,65000
+1388,Student_388,25,M,Mumbai,Data Science,47.0,82.1,60000
+1389,Student_389,18,F,Pune,MERN,59.0,71.8,55000
+1390,Student_390,25,F,Pune,Machine Learning,95.0,85.2,65000
+1391,Student_391,20,F,Pune,Java,49.0,93.8,45000
+1392,Student_392,24,F,Nashik,Java,67.0,90.6,45000
+1393,Student_393,24,F,Hyderabad,Data Science,53.0,92.3,60000
+1394,Student_394,19,M,Bangalore,Data Science,63.0,79.7,60000
+1395,Student_395,19,F,Mumbai,Python,75.0,81.3,45000
+1396,Student_396,25,F,Mumbai,Machine Learning,61.0,88.8,65000
+1397,Student_397,20,F,Nashik,MERN,88.0,78.5,50000
+1398,Student_398,19,M,Mumbai,Java,95.0,78.8,45000
+1399,Student_399,24,F,Pune,Python,38.0,87.0,45000
+1400,Student_400,23,M,Bangalore,Python,62.0,91.6,50000
+1401,Student_401,18,F,Delhi,Java,73.0,82.0,45000
+1402,Student_402,18,F,Mumbai,MERN,89.0,72.4,55000
+1403,Student_403,20,M,Pune,Python,65.0,76.6,45000
+1404,Student_404,25,F,Delhi,Python,72.0,86.0,45000
+1405,Student_405,19,M,Bangalore,Machine Learning,55.0,85.9,65000
+1406,Student_406,23,M,Delhi,MERN,49.0,86.4,50000
+1407,Student_407,18,F,Pune,Python,94.0,89.2,45000
+1408,Student_408,18,M,Hyderabad,MERN,45.0,84.1,50000
+1409,Student_409,21,F,,Java,100.0,86.7,45000
+1410,Student_410,25,F,Delhi,Data Science,83.0,83.5,65000
+1411,Student_411,21,M,Nashik,Python,82.0,95.5,45000
+1412,Student_412,24,M,Delhi,Machine Learning,81.0,98.3,65000
+1413,Student_413,18,M,Mumbai,Java,68.0,72.1,45000
+1414,Student_414,20,M,Mumbai,MERN,78.0,81.4,50000
+1415,Student_415,22,F,Hyderabad,Java,69.0,84.3,45000
+1416,Student_416,22,F,Nashik,Python,80.0,81.3,45000
+1417,Student_417,23,M,Pune,MERN,71.0,100.0,50000
+1418,Student_418,18,F,Mumbai,Data Science,58.0,86.2,60000
+1419,Student_419,18,F,Hyderabad,Java,59.0,75.9,45000
+1420,Student_420,24,F,Bangalore,Python,57.0,90.0,50000
+1421,Student_421,18,F,Hyderabad,Machine Learning,87.0,86.7,70000
+1422,Student_422,20,M,Mumbai,MERN,63.0,87.0,50000
+1423,Student_423,21,M,Mumbai,Java,43.0,100.0,45000
+1424,Student_424,18,F,Hyderabad,Java,78.0,87.5,45000
+1425,Student_425,18,M,Pune,Data Science,95.0,81.0,65000
+1426,Student_426,24,M,Delhi,Data Science,84.0,64.4,60000
+1427,Student_427,25,M,Mumbai,Machine Learning,63.0,82.3,65000
+1428,Student_428,19,F,Hyderabad,Machine Learning,48.0,97.1,65000
+1429,Student_429,25,F,Hyderabad,Python,70.0,83.1,45000
+1430,Student_430,24,F,Nashik,Python,70.0,61.6,45000
+1431,Student_431,25,M,Delhi,Machine Learning,57.0,79.0,65000
+1432,Student_432,24,F,Bangalore,Machine Learning,80.0,93.9,65000
+1433,Student_433,20,F,Pune,MERN,100.0,89.5,50000
+1434,Student_434,23,M,Bangalore,Data Science,75.0,75.6,60000
+1435,Student_435,18,F,Delhi,Python,74.0,78.3,45000
+1436,Student_436,24,F,Delhi,Data Science,58.0,79.9,60000
+1437,Student_437,24,M,Delhi,Data Science,93.0,77.4,60000
+1438,Student_438,19,M,,Machine Learning,71.0,63.7,70000
+1439,Student_439,24,M,Delhi,MERN,63.0,91.6,50000
+1440,Student_440,22,F,Hyderabad,Java,73.0,96.6,45000
+1441,Student_441,23,F,Bangalore,MERN,79.0,68.8,50000
+1442,Student_442,18,F,Delhi,MERN,74.0,96.4,50000
+1443,Student_443,18,M,Hyderabad,Data Science,90.0,83.0,60000
+1444,Student_444,19,M,Nashik,MERN,78.0,96.3,50000
+1445,Student_445,20,F,Delhi,Python,68.0,84.4,50000
+1446,Student_446,18,F,Bangalore,Data Science,78.0,85.4,60000
+1447,Student_447,22,M,Mumbai,Python,79.0,87.7,45000
+1448,Student_448,18,M,Delhi,Java,53.0,76.1,45000
+1449,Student_449,22,M,Mumbai,Data Science,89.0,95.9,60000
+1450,Student_450,23,M,Hyderabad,Java,67.0,72.8,45000
+1451,Student_451,23,F,Nashik,Data Science,68.0,80.0,60000
+1452,Student_452,21,M,Pune,Machine Learning,83.0,89.2,65000
+1453,Student_453,21,F,Nashik,MERN,83.0,78.9,50000
+1454,Student_454,22,F,Delhi,Machine Learning,61.0,91.8,65000
+1455,Student_455,20,F,Mumbai,Java,84.0,97.8,45000
+1456,Student_456,18,M,Mumbai,MERN,64.0,94.1,50000
+1457,Student_457,24,M,Bangalore,Data Science,99.0,64.6,60000
+1458,Student_458,18,M,Mumbai,MERN,60.0,85.3,55000
+1459,Student_459,21,M,Bangalore,Python,76.0,94.3,45000
+1460,Student_460,25,F,Hyderabad,MERN,60.0,70.8,50000
+1461,Student_461,24,M,Pune,Python,100.0,91.2,45000
+1462,Student_462,22,M,Delhi,MERN,53.0,90.7,50000
+1463,Student_463,24,F,Bangalore,,80.0,71.9,45000
+1464,Student_464,25,M,Pune,Java,61.0,92.3,45000
+1465,Student_465,18,F,Mumbai,Machine Learning,67.0,86.7,70000
+1466,Student_466,18,F,Mumbai,Data Science,79.0,90.5,60000
+1467,Student_467,20,F,Pune,MERN,90.0,74.3,50000
+1468,Student_468,19,F,Mumbai,Machine Learning,96.0,85.5,65000
+1469,Student_469,24,F,Hyderabad,Data Science,49.0,67.0,65000
+1470,Student_470,21,F,Hyderabad,Data Science,76.0,61.2,60000
+1471,Student_471,25,F,Pune,Python,94.0,85.4,45000
+1472,Student_472,25,F,Bangalore,Java,47.0,95.0,45000
+1473,Student_473,25,M,Bangalore,Java,77.0,86.5,45000
+1474,Student_474,21,M,Pune,Machine Learning,72.0,83.4,65000
+1475,Student_475,19,M,Bangalore,Java,78.0,82.1,45000
+1476,Student_476,18,M,Bangalore,MERN,60.0,74.6,50000
+1477,Student_477,20,F,Hyderabad,Java,50.0,81.8,45000
+1478,Student_478,20,M,Bangalore,Machine Learning,43.0,88.2,65000
+1479,Student_479,21,F,Nashik,Java,87.0,79.6,45000
+1480,Student_480,20,M,Delhi,MERN,89.0,91.5,50000
+1481,Student_481,25,M,,Python,77.0,86.0,50000
+1482,Student_482,23,M,Nashik,Machine Learning,64.0,87.2,70000
+1483,Student_483,19,F,Bangalore,Python,48.0,92.9,45000
+1484,Student_484,18,M,Hyderabad,Python,80.0,78.7,50000
+1485,Student_485,23,F,Pune,Python,55.0,90.6,45000
+1486,Student_486,19,F,Bangalore,Data Science,61.0,80.1,60000
+1487,Student_487,22,M,Hyderabad,Data Science,63.0,87.4,60000
+1488,Student_488,24,M,Delhi,Python,69.0,77.5,45000
+1489,Student_489,21,M,Bangalore,Machine Learning,61.0,74.9,65000
+1490,Student_490,25,F,Pune,MERN,73.0,84.9,50000
+1491,Student_491,20,M,Hyderabad,MERN,63.0,65.1,50000
+1492,Student_492,22,F,Hyderabad,Java,83.0,81.0,45000
+1493,Student_493,20,F,Hyderabad,Machine Learning,87.0,67.9,65000
+1494,Student_494,23,M,Delhi,Data Science,74.0,91.8,60000
+1495,Student_495,18,M,Bangalore,Python,79.0,94.5,45000
+1496,Student_496,18,F,Delhi,Java,100.0,75.4,45000
+1497,Student_497,18,F,Mumbai,MERN,54.0,88.3,55000
+1498,Student_498,25,F,Mumbai,Data Science,53.0,93.0,65000
+1499,Student_499,20,M,Bangalore,Data Science,82.0,93.0,60000
+1500,Student_500,22,F,Delhi,Python,100.0,86.1,50000
+1309,Student_309,19,M,Mumbai,Java,84.0,75.6,45000
+1014,Student_014,18,M,Bangalore,Machine Learning,66.0,69.9,65000
+1415,Student_415,22,F,Hyderabad,Java,69.0,84.3,45000
+1033,Student_033,18,F,Delhi,Data Science,84.0,,60000
+1461,Student_461,24,M,Pune,Python,100.0,91.2,45000
+1156,Student_156,19,M,Bangalore,Data Science,50.0,79.0,60000
+1250,Student_250,18,F,Delhi,Data Science,60.0,93.6,60000
+1218,Student_218,18,M,Mumbai,Python,87.0,79.8,45000
+1222,Student_222,22,M,Bangalore,Python,62.0,98.5,45000
+1294,Student_294,20,M,Nashik,Data Science,84.0,80.2,60000
